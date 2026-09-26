@@ -1,0 +1,23 @@
+﻿{
+  "name": "raprint",
+  "version": "1.0.0",
+  "description": "RaPrint — 3D-печать на заказ в Стерлитамаке",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "3d",
+    "3d-printing",
+    "raprint",
+    "sterlitamak"
+  ],
+  "author": "RaPrint",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
